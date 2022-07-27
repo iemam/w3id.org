@@ -10,14 +10,14 @@ RewriteRule ^$   https://fairplus.github.io/Data-Maturity/ [R=303,L]
 # Identifiers
 # ------------------
 # In the following block: 
-# Define individual identifiers for indicators, of the following form: `dsm\d{2}[rch]`.
+# Define individual identifiers for indicators, of the following form: `DSM-\d-\d[RCH]`.
 # For better human-readability, the indicators are listed incrementally based on the level, 
-# indicator number and indicator domain [representation (r), content (c), hosting (h)].
+# indicator number and indicator domain [representation (R), content (C), hosting (H)].
 # 
 #
 
 # Level 0
-RewriteRule ^dsm01r$ https://fairplus.github.io/Data-Maturity/docs/Indicators/#dsm-01r [R=303,L,QSA]
+RewriteRule ^DSM-0-1R$ https://fairplus.github.io/Data-Maturity/docs/Indicators/#dsm-0-1r [R=303,L,QSA]
 RewriteRule ^dsm02r$ https://fairplus.github.io/Data-Maturity/docs/Indicators/#dsm-02r [R=303,L,QSA]
 RewriteRule ^dsm03r$ https://fairplus.github.io/Data-Maturity/docs/Indicators/#dsm-03r [R=303,L,QSA]
 RewriteRule ^dsm04r$ https://fairplus.github.io/Data-Maturity/docs/Indicators/#dsm-04r [R=303,L,QSA]
